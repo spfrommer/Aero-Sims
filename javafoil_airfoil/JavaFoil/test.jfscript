@@ -1,0 +1,15 @@
+// recorded on 5/2/07 at 7:18 PM by Martin Hepperle
+Options.Country(0);
+Geometry.CreateAirfoil(0,61,12,30,0.000,40.000,0,0,1);
+Options.MachNumber(0);
+Options.StallModel(0);
+Options.TransitionModel(1);
+Options.GroundEffect(0);
+Options.AspectRatio(0);
+Polar.Analyze(100000,100000,100000,-5,15,1,100,100,0,0);
+Polar.Save("p100.txt");
+Polar.Analyze(200000,200000,100000,-5,15,1,100,100,0,0);
+Polar.Save("p200.txt");
+Polar.Analyze(500000,500000,100000,-5,15,1,100,100,0,0);
+Polar.Save("p500.txt");
+JavaFoil.Exit();

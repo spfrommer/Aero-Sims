@@ -1,0 +1,25 @@
+{
+  "name": "aero-sims",
+  "version": "1.0.0",
+  "description": "Simulates and optimizes a multi-element airfoil",
+  "main": "airfoil.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Penn-Electric-Racing/Aero-Sims.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Penn-Electric-Racing/Aero-Sims/issues"
+  },
+  "homepage": "https://github.com/Penn-Electric-Racing/Aero-Sims#readme",
+  "dependencies": {
+    "d3": "^5.7.0",
+    "d3-node": "^2.0.0",
+    "genetic-js": "^0.1.14",
+    "xml-js": "^1.6.0"
+  }
+}
